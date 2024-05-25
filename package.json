@@ -1,6 +1,17 @@
 {
   "name": "website-builder",
+  "description": "This is your next website builder!",
   "version": "1.0.0",
+  "homepage": "https://website-builder-smoky-one.vercel.app/",
+  "author": "Ethan G. (https://egxworld.net/)",
+  "license": "MIT",
+  "keywords": [
+    "sanity",
+    "nextjs",
+    "react",
+    "tailwindcss",
+    "vercel"
+  ],
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
