@@ -8,6 +8,8 @@
 
 Website Builder is a powerful, user-friendly tool designed to help you create stunning websites effortlessly. Built with Next.js, TailwindCSS, and Sanity, this builder offers a seamless experience for both developers and content creators.
 
+![websitebuilder1](https://github.com/egarrisxn/website-builder/assets/126130230/d5004169-95e8-4271-9280-0a3bb4e96961)
+
 ## Technologies
 
 - Sanity: A customizable headless content management system.
