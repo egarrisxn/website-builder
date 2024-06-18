@@ -1,4 +1,4 @@
-# Website Builder
+# WebSanity Builder
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/website-builder)
 
@@ -6,9 +6,9 @@
 
 "This is your next website builder!"
 
-Website Builder is a powerful, user-friendly tool designed to help you create stunning websites effortlessly. Built with Next.js, TailwindCSS, and Sanity, this builder offers a seamless experience for both developers and content creators.
+Websanity Builder is a powerful, user-friendly tool designed to help you create stunning websites effortlessly. Built with Next.js, TailwindCSS, and Sanity..this builder offers a seamless experience for both developers and content creators.
 
-![websitebuilder1](https://github.com/egarrisxn/website-builder/assets/126130230/d5004169-95e8-4271-9280-0a3bb4e96961)
+![websanity-builder](https://github.com/egarrisxn/website-builder/assets/126130230/84e5a962-5155-4f40-adc2-ee0e910d363d)
 
 ## Technologies
 
