@@ -32,13 +32,13 @@ To get started, follow these steps:
 1. Clone the repository:
 
 ```
-git clone https://github.com/EGARRISXN/website-builder.git
+git clone https://github.com/egarrisxn/websanity-builder.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd website-builder
+cd websanity-builder
 ```
 
 3. Install the dependencies using `pnpm`:
