@@ -18,7 +18,7 @@ export async function generateMetadata() {
     title: homePage?.title
       ? {
           template: `%s | ${homePage.title}`,
-          default: homePage.title || 'Personal website',
+          default: homePage.title || 'Websanity',
         }
       : undefined,
     description: homePage?.overview ? toPlainText(homePage.overview) : undefined,
