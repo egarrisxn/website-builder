@@ -6,6 +6,6 @@ export const apiVersion = process.env.NEXT_PUBLIC_SANITY_VERSION
 export const token = process.env.SANITY_TOKEN
 export const revalidateSecret = process.env.SANITY_SECRET
 
-export const title = 'THExSTUDIO'
+export const title = 'SWB Studio'
 export const studioUrl = '/studio'
 export const basePath = '/studio'
