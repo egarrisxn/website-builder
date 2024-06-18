@@ -1,21 +1,21 @@
 # WebSanity Builder
+_"This is your next website builder!"_
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/websanity-builder)
 
 ## Overview
 
-"This is your next website builder!"
-
-Websanity Builder is a powerful, user-friendly tool designed to help you create stunning websites effortlessly. Built with Next.js, TailwindCSS, and Sanity..this builder offers a seamless experience for both developers and content creators.
+Websanity Builder is a powerful, user-friendly tool designed to help you create stunning websites effortlessly.<br/>
+Built with Next.js, TailwindCSS, Sanity, and more to offer a seamless experience for both developers and content creators.
 
 ![websanity-builder](https://github.com/egarrisxn/website-builder/assets/126130230/84e5a962-5155-4f40-adc2-ee0e910d363d)
 
 ## Technologies
 
-- Sanity: A customizable headless content management system.
-- Next.js: A React framework for server-side rendering and static site generation.
-- TailwindCSS: A utility-first CSS framework for rapidly building custom user interfaces.
-- Node.js: A JavaScript runtime for server-side development.
+- **Sanity**: A customizable headless content management system.
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **TailwindCSS**: A utility-first CSS framework for rapidly building custom user interfaces.
+- **Node.js**: A JavaScript runtime for server-side development.
 
 ## Features
 
@@ -27,37 +27,57 @@ Websanity Builder is a powerful, user-friendly tool designed to help you create 
 
 ## Installation
 
-To get started, follow these steps:
+To get started with Websanity Builder, follow these steps:
 
-1. Clone the repository:
+1.  **Clone the repository:**
 
 ```
 git clone https://github.com/egarrisxn/websanity-builder.git
 ```
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
 
 ```
 cd websanity-builder
 ```
 
-3. Install the dependencies using `pnpm`:
+3. **Install dependencies using `pnpm`:**
 
 ```
 pnpm install
 ```
 
-## Usage
+## Setup
 
-### Development
+To integrate Sanity.io with your project, follow these additional steps:
 
-To start the development server, run:
+### 1. Create a Sanity.io account
+
+Sign up on [Sanity.io](https://www.sanity.io/) and create a new account if you haven't already.
+
+### 2. Set up a new Sanity project
+
+Create a new project on Sanity.io and configure it.
+
+### 3. Configure environment variables
+
+- Generate a `SANITY_API_TOKEN` and `SANITY_PROJECT_ID` from your Sanity project.
+
+- Create a `.env` file in the root of your project based on `.env.example`.
+
+- Replace placeholders with your actual API token, project ID, and dataset information.
+
+### 4. Start Sanity Studio
+
+After configuring your environment variables, run the following command:
 
 ```
 pnpm run dev
 ```
 
-This will start the Next.js development server on `https://localhost:3000`.
+This will launch the development server on `https://localhost:3000`.
+
+Navigate to `localhost:3000/studio` to access your Sanity Studio interface.
 
 ### Build
 
