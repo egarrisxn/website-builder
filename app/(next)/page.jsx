@@ -1,9 +1,9 @@
 import dynamic from 'next/dynamic'
-import {draftMode} from 'next/headers'
+import { draftMode } from 'next/headers'
+import { loadHomePage } from '@/sanity/loader/loadQuery'
+import { studioUrl } from '@/sanity/lib/api'
+import { HomePage } from '@/components/pages/home/HomePage'
 import Link from 'next/link'
-import {HomePage} from '@/components/pages/home/HomePage'
-import {studioUrl} from '@/sanity/lib/api'
-import {loadHomePage} from '@/sanity/loader/loadQuery'
 
 const HomePagePreview = dynamic(() => import('@/components/pages/home/HomePagePreview'))
 

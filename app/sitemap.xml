@@ -2,13 +2,13 @@
   <url>
     <loc>https://websanitybuilder.vercel.app</loc>
     <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-    <changefreq>yearly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://websanitybuilder.vercel.app/info</loc>
+    <loc>https://websanitybuilder.vercel.app/overview</loc>
     <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

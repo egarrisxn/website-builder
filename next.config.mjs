@@ -1,11 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    remotePatterns: [{protocol: 'https', hostname: "cdn.sanity.io"}],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: "cdn.sanity.io"
+      }
+    ],
   },
   logging: {
     fetches: {
-      fullUrl: true,
+      fullUrl: false,
     },
   },
   experimental: {

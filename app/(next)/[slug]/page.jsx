@@ -1,15 +1,15 @@
 import dynamic from 'next/dynamic'
-import {draftMode} from 'next/headers'
-import {notFound} from 'next/navigation'
-import {toPlainText} from 'next-sanity'
-import {Page} from '@/components/pages/page/Page'
-import {generateStaticSlugs} from '@/sanity/loader/generateStaticSlugs'
-import {loadPage} from '@/sanity/loader/loadQuery'
+import { draftMode } from 'next/headers'
+import { notFound } from 'next/navigation'
+import { toPlainText } from 'next-sanity'
+import { generateStaticSlugs } from '@/sanity/loader/generateStaticSlugs'
+import { loadPage } from '@/sanity/loader/loadQuery'
+import { Page } from '@/components/pages/page/Page'
 
 const PagePreview = dynamic(() => import('@/components/pages/page/PagePreview'))
 
-export async function generateMetadata({params}, parent) {
-  const {data: page} = await loadPage(params.slug)
+export async function generateMetadata({ params }, parent) {
+  const { data: page } = await loadPage(params.slug)
 
   return {
     title: page?.title,
@@ -21,7 +21,7 @@ export function generateStaticParams() {
   return generateStaticSlugs('page')
 }
 
-export default async function PageSlugRoute({params}) {
+export default async function PageSlugRoute({ params }) {
   const initial = await loadPage(params.slug)
 
   if (draftMode().isEnabled) {
