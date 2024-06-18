@@ -17,7 +17,7 @@ Built with Next.js, TailwindCSS, Sanity, and more to offer a seamless experience
 - **TailwindCSS**: A utility-first CSS framework for rapidly building custom user interfaces.
 - **Node.js**: A JavaScript runtime for server-side development.
 
-## Features
+## Features 
 
 - Real-time Content Editing: Leverage Sanity's CMS capabilities to manage your content in real time.
 - Responsive Design: Built with TailwindCSS to ensure your site looks great on any device.
